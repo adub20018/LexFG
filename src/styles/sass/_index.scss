@@ -19,6 +19,15 @@
   }
   &__text {
     width: 60vw;
+    z-index: 1;
+  }
+  &__dim {
+    position: absolute;
+    height: 32rem;
+    background-color: $color-gray;
+    width: 100%;
+    opacity: 0.6;
+    z-index: 0;
   }
 }
 

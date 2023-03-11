@@ -47,6 +47,15 @@
 }
 .hero-section__text {
   width: 60vw;
+  z-index: 1;
+}
+.hero-section__dim {
+  position: absolute;
+  height: 32rem;
+  background-color: #10141f;
+  width: 100%;
+  opacity: 0.6;
+  z-index: 0;
 }
 
 .cards {
