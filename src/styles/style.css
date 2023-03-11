@@ -1,0 +1,125 @@
+.top-nav {
+  height: 5rem;
+  background-color: #10141f;
+}
+
+.top-nav ul {
+  display: flex;
+  gap: 2rem;
+  padding-left: 0;
+  align-items: center;
+  margin: 0;
+}
+
+.top-nav ul li {
+  display: inline-block;
+}
+
+.top-nav ul li a {
+  color: white;
+  line-height: 5rem;
+}
+
+.top-nav ul li:first-child {
+  margin-right: auto;
+}
+
+.title {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  width: 60vw;
+}
+
+.hero-section {
+  height: 32rem;
+  background-image: url("../public/assets/images/CitySkyline.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section__text {
+  width: 60vw;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 10rem;
+  width: 60vw;
+}
+
+.card-title {
+  color: #f9ad15;
+}
+
+.feature-text {
+  color: #f9ad15;
+}
+
+.services {
+  background-color: #10141f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #fcfcfc;
+  border-top: 1px solid #fcfcfc;
+}
+.services__title {
+  margin: 0;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.service-card {
+  display: grid;
+}
+.service-card__container {
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw;
+  grid-template-rows: 1fr 1fr;
+  gap: 2.5vw;
+  width: 65vw;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.service-card__img {
+  justify-self: center;
+  height: 115px;
+}
+.service-card__title {
+  text-align: center;
+  color: #64a443;
+}
+.service-card__text {
+  text-align: center;
+  max-width: 15rem;
+  justify-self: center;
+  font-size: 12px;
+}
+
+.bottom {
+  height: 30rem;
+  background-color: #151d28;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+}
+.bottom__text {
+  width: 60vw;
+  margin-top: 1rem;
+}
+
+.social-icons__img {
+  margin-top: 2rem;
+  height: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
