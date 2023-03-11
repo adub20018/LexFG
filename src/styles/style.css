@@ -141,6 +141,61 @@
 .blockchain {
   height: 32rem;
   background-color: #151d28;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  border-bottom: 1px solid #fcfcfc;
+}
+.blockchain__img {
+  height: 30rem;
+}
+.blockchain__text {
+  width: 50vw;
+}
+
+.title-green {
+  margin: 0;
+  color: #64a443;
+}
+
+.feature-text-green {
+  color: #64a443;
+}
+
+.list {
+  line-height: 1.8rem;
+}
+
+.business {
+  height: 32rem;
+  background-color: #10141f;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  border-bottom: 1px solid #fcfcfc;
+}
+.business__top-img {
+  width: 20rem;
+}
+.business__bottom {
+  grid-area: 2/2/2/2;
+}
+.business h1 {
+  margin: 0;
+}
+
+.jurisdiction {
+  height: 32rem;
+  background-color: #151d28;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  padding-top: 5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

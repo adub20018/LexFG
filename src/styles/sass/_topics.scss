@@ -1,4 +1,67 @@
 .blockchain {
   height: 32rem;
   background-color: $color-light-gray;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  border-bottom: 1px solid $color-white;
+  &__content {
+    &-right {
+    }
+  }
+  &__img {
+    height: 30rem;
+  }
+
+  &__text {
+    width: 50vw;
+  }
+}
+
+.title-green {
+  margin: 0;
+  color: $color-green;
+}
+.feature-text-green {
+  color: $color-green;
+}
+
+.list {
+  line-height: 1.8rem;
+}
+
+.business {
+  height: 32rem;
+  background-color: $color-gray;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  border-bottom: 1px solid $color-white;
+  &__top {
+    &-img {
+      width: 20rem;
+    }
+  }
+  &__bottom {
+    grid-area: 2/2/2/2;
+  }
+  h1 {
+    margin: 0;
+  }
+}
+
+.jurisdiction {
+  height: 32rem;
+  background-color: $color-light-gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  padding-top: 5rem;
+  &__top {
+  }
 }
