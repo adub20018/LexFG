@@ -7,17 +7,21 @@
 }
 .hero-section {
   height: 32rem;
-  background-image: url("/assets/images/CitySkyline.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  &__img {
+    height: 32rem;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
   &__text {
     width: 60vw;
   }
 }
+
 .cards {
   display: flex;
   justify-content: center;

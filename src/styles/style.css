@@ -34,13 +34,16 @@
 
 .hero-section {
   height: 32rem;
-  background-image: url("../public/assets/images/CitySkyline.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.hero-section__img {
+  height: 32rem;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
 }
 .hero-section__text {
   width: 60vw;
