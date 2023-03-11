@@ -8,172 +8,168 @@ import Card from "../components/Card.astro";
 <head>
   <BaseHead />
 </head>
-<Layout title="Welcome to Astro.">
-  <main>
-    <TopNav />
-    <div class="hero-section">
-      <div class="hero-section__dim"></div>
-      <img class="hero-section__img" src="/assets/images/CitySkyline.png" />
-      <div class="hero-section__text">
-        <h1 class="title">
-          A Fullstack, Web3 Law Firm for Blockchain Startups, NFT Investors &
-          Crypto Issues
-        </h1>
-        <div class="cards">
-          <div class="card">
-            <h2 class="card-title">On the Future's Legal Frontier</h2>
-            <p>
-              Lorem ipsum dolor sit amet. Aut incidunt voluptatem et voluptas
-              eligendi et modi omnis qui voluptatem quod et accusantium bestae
-              in.
-            </p>
-          </div>
-          <div class="card">
-            <h2 class="card-title">Supporting Big Ideas</h2>
-            <p>
-              Lorem ipsum dolor sit amet. Aut incidunt voluptatem et voluptas
-              eligendi et modi omnis qui voluptatem quod et accusantium bestae
-              in.
-            </p>
-          </div>
+<Layout title="Overview of LexFG" />
+<main>
+  <TopNav />
+  <div class="hero-section">
+    <div class="hero-section__dim"></div>
+    <img class="hero-section__img" src="/assets/images/CitySkyline.png" />
+    <div class="hero-section__text">
+      <h1 class="title">
+        A Fullstack, Web3 Law Firm for Blockchain Startups, NFT Investors &
+        Crypto Issues
+      </h1>
+      <div class="cards">
+        <div class="card">
+          <h2 class="card-title">On the Future's Legal Frontier</h2>
+          <p>
+            Lorem ipsum dolor sit amet. Aut incidunt voluptatem et voluptas
+            eligendi et modi omnis qui voluptatem quod et accusantium bestae in.
+          </p>
         </div>
-        <p class="hero-text">
-          LexFG is a <span class="feature-text">cross-disciplinary team</span> of
-          legal practitioners, with broad off and <span class="feature-text"
-            >on-chain experience</span
-          > across a wide range of legal practice areas, who specialize in <span
-            class="feature-text">advising web3 founders and and protocols.</span
-          >
+        <div class="card">
+          <h2 class="card-title">Supporting Big Ideas</h2>
+          <p>
+            Lorem ipsum dolor sit amet. Aut incidunt voluptatem et voluptas
+            eligendi et modi omnis qui voluptatem quod et accusantium bestae in.
+          </p>
+        </div>
+      </div>
+      <p class="hero-text">
+        LexFG is a <span class="feature-text">cross-disciplinary team</span> of legal
+        practitioners, with broad off and <span class="feature-text"
+          >on-chain experience</span
+        > across a wide range of legal practice areas, who specialize in <span
+          class="feature-text">advising web3 founders and and protocols.</span
+        >
+      </p>
+    </div>
+  </div>
+  <div class="services">
+    <h2 class="services__title">A Wide Range of Services</h2>
+
+    <div class="service-card__container">
+      <div class="service-card">
+        <img
+          class="service-card__img"
+          src="/assets/images/NFT_LOGO.png"
+          alt="NFT Logo"
+        />
+        <h3 class="service-card__title">NFTs</h3>
+        <p class="service-card__text">Sale, Licensing</p>
+      </div>
+
+      <div class="service-card">
+        <img
+          class="service-card__img"
+          src="/assets/images/textmock.gif"
+          alt="Code Text Image Animation"
+        />
+        <h3 class="service-card__title">Entity Architecture</h3>
+        <p class="service-card__text">
+          Single entity, Multi-entity, Offshore, Nonprofit
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img
+          class="service-card__img"
+          src="/assets/images/lock_FILL1_wght700_GRAD0_opsz48.png"
+          alt="Code Text Image Animation"
+        />
+        <h3 class="service-card__title">Developer Protection</h3>
+        <p class="service-card__text">
+          Individual wrapping, jurisdictional co-wrapping
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img
+          class="service-card__img"
+          src="/assets/images/currency_exchange_FILL1_wght700_GRAD0_opsz48.png"
+          alt="Code Text Image Animation"
+        />
+        <h3 class="service-card__title">Funding Structures</h3>
+        <p class="service-card__text">
+          Funding Agreements, Centralized Exchange Listing
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img
+          class="service-card__img"
+          src="/assets/images/verified_user_FILL1_wght700_GRAD0_opsz48.png"
+          alt="Code Text Image Animation"
+        />
+        <h3 class="service-card__title">Compliance</h3>
+        <p class="service-card__text">KYC / AML, Securities</p>
+      </div>
+
+      <div class="service-card">
+        <img
+          class="service-card__img"
+          src="/assets/images/gavel_FILL1_wght700_GRAD0_opsz48.png"
+          alt="Code Text Image Animation"
+        />
+        <h3 class="service-card__title">Fractional GC</h3>
+        <p class="service-card__text">
+          Governance, Terms of Service, Litigation Management, Internal Dispute
+          Resolution, Recordkeeping
         </p>
       </div>
     </div>
-    <div class="services">
-      <h2 class="services__title">A Wide Range of Services</h2>
+  </div>
 
-      <div class="service-card__container">
-        <div class="service-card">
-          <img
-            class="service-card__img"
-            src="/assets/images/NFT_LOGO.png"
-            alt="NFT Logo"
-          />
-          <h3 class="service-card__title">NFTs</h3>
-          <p class="service-card__text">Sale, Licensing</p>
-        </div>
+  <div class="bottom">
+    <p class="bottom__text">
+      LexFG provides <span class="feature-text"> in a wide array of areas</span>
+      including startup funding, entity formation and structural architecture, fractional
+      general counsel services, internal and external dispute resolution, litigation
+      management, governance and token issuance, internal best practices, ToS and
+      privacy documentation, KYC/AML, regulatory compliance, government investigations,
+      insurance coverage, IP and software licensing, employment, and DAO and corporate
+      governance. In certain jurisdictions LexFG counsel can also provide trial and
+      appellate practice support and more traditional legal business dispute-related
+      or other legal services.
+    </p>
+    <p class="bottom__text">
+      LexFG members possess the experience and perspective to <span
+        class="feature-text"
+      >
+        practical advice to technology executives and developers.</span
+      >
+    </p>
+    <p class="bottom__text">
+      LexFG works with international businesses at all stages of development,
+      from pre-incorporation start-ups to well-established businesses, to help
+      our clients <span class="feature-text"
+        >and deploy compliance driven blockchain and software solutions.</span
+      >
+    </p>
 
-        <div class="service-card">
-          <img
-            class="service-card__img"
-            src="/assets/images/textmock.gif"
-            alt="Code Text Image Animation"
-          />
-          <h3 class="service-card__title">Entity Architecture</h3>
-          <p class="service-card__text">
-            Single entity, Multi-entity, Offshore, Nonprofit
-          </p>
-        </div>
+    <div class="social-icons">
+      <a class="social-icons__link" href="https://twitter.com"
+        ><img
+          class="social-icons__img"
+          src="/assets/images/LinksLogo3.png"
+          alt="Pixel Twitter Icon"
+        /></a
+      >
+      <a class="social-icons__link" href="https://linkedin.com/">
+        <img
+          class="social-icons__img"
+          src="/assets/images/LinksLogo6.png"
+          alt="Pixel LinkedIn Icon"
+        /></a
+      >
 
-        <div class="service-card">
-          <img
-            class="service-card__img"
-            src="/assets/images/lock_FILL1_wght700_GRAD0_opsz48.png"
-            alt="Code Text Image Animation"
-          />
-          <h3 class="service-card__title">Developer Protection</h3>
-          <p class="service-card__text">
-            Individual wrapping, jurisdictional co-wrapping
-          </p>
-        </div>
-
-        <div class="service-card">
-          <img
-            class="service-card__img"
-            src="/assets/images/currency_exchange_FILL1_wght700_GRAD0_opsz48.png"
-            alt="Code Text Image Animation"
-          />
-          <h3 class="service-card__title">Funding Structures</h3>
-          <p class="service-card__text">
-            Funding Agreements, Centralized Exchange Listing
-          </p>
-        </div>
-
-        <div class="service-card">
-          <img
-            class="service-card__img"
-            src="/assets/images/verified_user_FILL1_wght700_GRAD0_opsz48.png"
-            alt="Code Text Image Animation"
-          />
-          <h3 class="service-card__title">Compliance</h3>
-          <p class="service-card__text">KYC / AML, Securities</p>
-        </div>
-
-        <div class="service-card">
-          <img
-            class="service-card__img"
-            src="/assets/images/gavel_FILL1_wght700_GRAD0_opsz48.png"
-            alt="Code Text Image Animation"
-          />
-          <h3 class="service-card__title">Fractional GC</h3>
-          <p class="service-card__text">
-            Governance, Terms of Service, Litigation Management, Internal
-            Dispute Resolution, Recordkeeping
-          </p>
-        </div>
-      </div>
+      <a class="social-icons__link" href="">
+        <img
+          class="social-icons__img"
+          src="/assets/images/LinksLogo5.png"
+          alt="Pixel Icon"
+        /></a
+      >
     </div>
-
-    <div class="bottom">
-      <p class="bottom__text">
-        LexFG provides <span class="feature-text">
-          in a wide array of areas</span
-        > including startup funding, entity formation and structural architecture,
-        fractional general counsel services, internal and external dispute resolution,
-        litigation management, governance and token issuance, internal best practices,
-        ToS and privacy documentation, KYC/AML, regulatory compliance, government
-        investigations, insurance coverage, IP and software licensing, employment,
-        and DAO and corporate governance. In certain jurisdictions LexFG counsel
-        can also provide trial and appellate practice support and more traditional
-        legal business dispute-related or other legal services.
-      </p>
-      <p class="bottom__text">
-        LexFG members possess the experience and perspective to <span
-          class="feature-text"
-        >
-          practical advice to technology executives and developers.</span
-        >
-      </p>
-      <p class="bottom__text">
-        LexFG works with international businesses at all stages of development,
-        from pre-incorporation start-ups to well-established businesses, to help
-        our clients <span class="feature-text"
-          >and deploy compliance driven blockchain and software solutions.</span
-        >
-      </p>
-
-      <div class="social-icons">
-        <a class="social-icons__link" href="https://twitter.com"
-          ><img
-            class="social-icons__img"
-            src="/assets/images/LinksLogo3.png"
-            alt="Pixel Twitter Icon"
-          /></a
-        >
-        <a class="social-icons__link" href="https://linkedin.com/">
-          <img
-            class="social-icons__img"
-            src="/assets/images/LinksLogo6.png"
-            alt="Pixel LinkedIn Icon"
-          /></a
-        >
-
-        <a class="social-icons__link" href="">
-          <img
-            class="social-icons__img"
-            src="/assets/images/LinksLogo5.png"
-            alt="Pixel Icon"
-          /></a
-        >
-      </div>
-    </div>
-  </main>
-</Layout>
+  </div>
+</main>
