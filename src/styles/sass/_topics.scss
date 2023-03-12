@@ -1,6 +1,6 @@
 .blockchain {
   height: 32rem;
-  background-color: $color-light-gray;
+  background-color: $color-gray;
   display: flex;
   justify-content: space-around;
   padding-top: 5rem;
@@ -56,7 +56,7 @@
 
 .jurisdiction {
   height: 32rem;
-  background-color: $color-light-gray;
+  background-color: $color-dark-gray;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
