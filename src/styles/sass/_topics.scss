@@ -1,5 +1,5 @@
 .blockchain {
-  height: 32rem;
+  height: auto;
   background-color: $color-gray;
   display: flex;
   justify-content: space-around;
@@ -7,11 +7,12 @@
   padding-bottom: 5rem;
   border-bottom: 1px solid $color-white;
   &__content {
-    &-right {
-    }
+    display: flex;
+    width: 80vw;
   }
   &__img {
     height: 30rem;
+    align-items: center;
   }
 
   &__text {
@@ -32,22 +33,32 @@
 }
 
 .business {
-  height: 32rem;
+  height: auto;
   background-color: $color-gray;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-bottom: 1px solid $color-white;
   &__top {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
     &-img {
-      width: 20rem;
     }
   }
   &__bottom {
-    grid-area: 2/2/2/2;
+    display: flex;
+    width: 80vw;
+    &-right {
+    }
+    &-img {
+      height: 250px;
+    }
+  }
+  &__ul {
   }
   h1 {
     margin: 0;
@@ -55,13 +66,35 @@
 }
 
 .jurisdiction {
-  height: 32rem;
+  height: auto;
   background-color: $color-dark-gray;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-items: center;
   padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &-title {
+    align-self: center;
+    font-family: $font-body-bold;
+    font-size: 18px;
+    width: 80vw;
+    color: $color-green;
+  }
+  &__card {
+    width: 25vw;
+    text-align: left;
+    border-bottom: 1px solid $color-white;
+    &-container {
+      display: grid;
+      width: 80vw;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      justify-items: center;
+    }
+    &-title {
+      font-family: $font-body;
+      font-size: 15px;
+    }
+  }
   &__top {
   }
 }

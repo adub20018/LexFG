@@ -1,0 +1,31 @@
+html {
+  font-family: $font-body;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $font-heading;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+ul {
+  text-align: left;
+  line-height: 25px;
+}
