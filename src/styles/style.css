@@ -76,7 +76,11 @@ h3 {
 
 ul {
   text-align: left;
-  line-height: 25px;
+}
+
+li {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .title {
@@ -213,6 +217,7 @@ ul {
 .blockchain__content {
   display: flex;
   width: 80vw;
+  align-items: center;
 }
 .blockchain__img {
   height: 30rem;
@@ -258,6 +263,9 @@ ul {
 .business__bottom-img {
   height: 250px;
 }
+.business__ul {
+  padding-left: 20px;
+}
 .business h1 {
   margin: 0;
 }
@@ -269,6 +277,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 5rem;
 }
 .jurisdiction-title {
   align-self: center;

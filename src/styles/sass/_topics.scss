@@ -9,6 +9,7 @@
   &__content {
     display: flex;
     width: 80vw;
+    align-items: center;
   }
   &__img {
     height: 30rem;
@@ -59,6 +60,7 @@
     }
   }
   &__ul {
+    padding-left: 20px;
   }
   h1 {
     margin: 0;
@@ -72,6 +74,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 5rem;
   &-title {
     align-self: center;
     font-family: $font-body-bold;
