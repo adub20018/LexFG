@@ -92,7 +92,7 @@ li {
   display: flex;
   justify-content: center;
   color: #ffffff;
-  width: 60vw;
+  width: 70vw;
 }
 
 .hero-section {
@@ -111,7 +111,7 @@ li {
   z-index: -1;
 }
 .hero-section__text {
-  width: 60vw;
+  width: 70vw;
   z-index: 1;
 }
 
@@ -121,12 +121,12 @@ li {
   margin-top: 2rem;
   margin-bottom: 2rem;
   gap: 10rem;
-  width: 60vw;
+  width: 70vw;
 }
 
 .card-title {
   color: #f9ad15;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .hero-text {
@@ -158,10 +158,10 @@ li {
 }
 .service-card__container {
   display: grid;
-  grid-template-columns: 20vw 20vw 20vw;
+  grid-template-columns: 25vw 25vw 25vw;
   grid-template-rows: 1fr 1fr;
   gap: 2.5vw;
-  width: 65vw;
+  width: 75vw;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
@@ -197,7 +197,7 @@ li {
   padding-bottom: 5rem;
 }
 .bottom__text {
-  width: 60vw;
+  width: 70vw;
   margin-top: 1rem;
 }
 
@@ -260,6 +260,7 @@ li {
 .business__bottom {
   display: flex;
   width: 80vw;
+  align-items: center;
 }
 .business__bottom-img {
   height: 250px;
@@ -315,6 +316,7 @@ li {
   flex-direction: column;
   align-items: center;
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .profile__container {
   display: grid;
