@@ -6,7 +6,12 @@ export interface Props {
   description: string;
   permalink: string;
 }
-const { title, description, permalink } = Astro.props;
+
+const {
+  title = "LexFG",
+  description = "A Fullstack, Web3 Law Firm for Blockchain Startups, NFT Investors & Crypto Issues",
+  permalink = "https://lexfg.netlify.app",
+} = Astro.props;
 ---
 
 <!-- Global Metadata -->
