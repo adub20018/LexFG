@@ -245,9 +245,17 @@ li {
     font-size: 11px;
   }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
+  .cards {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 375px) {
   .hero-section__img {
-    height: 110rem;
+    height: 112rem;
+  }
+  .social-icons__img {
+    height: 60px;
   }
 }
 .blockchain {

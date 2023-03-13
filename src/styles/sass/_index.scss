@@ -163,13 +163,21 @@
   }
 }
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 450px) {
+  .cards {
+    flex-direction: column;
+  }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
   .hero-section {
     &__img {
-      height: 110rem;
+      height: 112rem;
+    }
+  }
+  .social-icons {
+    &__img {
+      height: 60px;
     }
   }
 }
