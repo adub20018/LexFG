@@ -12,13 +12,15 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 2rem;
+    gap: 0rem;
     padding: 0;
     padding-right: 2.5rem;
     height: 6rem;
     margin: 0;
     & li {
       display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
       & a {
         color: $color-white;
         line-height: 6rem;
@@ -32,7 +34,19 @@
     }
   }
 }
+.dash {
+  padding: 0;
+  margin: 0 !important;
+}
+rect {
+  height: 2px;
+  width: 8px;
+  fill: $color-white;
+}
 
+.active {
+  color: $color-orange;
+}
 #logo {
   padding: 0;
   list-style-type: none;
