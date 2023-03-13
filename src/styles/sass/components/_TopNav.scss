@@ -138,6 +138,10 @@ rect {
     }
   }
 
+  svg {
+    display: none;
+  }
+
   // hamburger nav styles
   .menu {
     flex-direction: column;
