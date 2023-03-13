@@ -3,19 +3,20 @@
   background-color: $color-gray;
   display: flex;
   justify-content: center;
+  padding-top: 5rem;
 }
 .profile {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
   &__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    gap: 5rem;
     justify-items: center;
-    width: 60vw;
+    width: 80vw;
+    max-width: 90rem;
   }
   &__img {
     justify-content: center;
@@ -31,5 +32,27 @@
   &__text {
     width: 20rem;
     font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .profile {
+    &__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      gap: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .profile {
+    &__container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: 0;
+    }
   }
 }

@@ -401,21 +401,22 @@ li {
   background-color: #151d28;
   display: flex;
   justify-content: center;
+  padding-top: 5rem;
 }
 
 .profile {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
 }
 .profile__container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  gap: 5rem;
   justify-items: center;
-  width: 60vw;
+  width: 80vw;
+  max-width: 90rem;
 }
 .profile__img {
   justify-content: center;
@@ -431,6 +432,23 @@ li {
 .profile__text {
   width: 20rem;
   font-size: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+  .profile__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0;
+  }
+}
+@media screen and (max-width: 680px) {
+  .profile__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
