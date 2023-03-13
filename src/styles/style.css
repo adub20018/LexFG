@@ -306,6 +306,7 @@ li {
 }
 .business__top-img {
   width: 100%;
+  max-width: 30rem;
 }
 .business__bottom {
   display: flex;
@@ -314,6 +315,7 @@ li {
 }
 .business__bottom-img {
   width: 100%;
+  max-width: 30rem;
 }
 .business__ul {
   padding-left: 20px;
