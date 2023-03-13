@@ -10,9 +10,12 @@
     display: flex;
     width: 80vw;
     align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
   }
   &__img {
-    height: 30rem;
+    width: 20vw;
+    max-width: 30rem;
     align-items: center;
   }
 
@@ -48,6 +51,7 @@
     justify-content: space-between;
     margin-bottom: 5rem;
     &-img {
+      width: 100%;
     }
   }
   &__bottom {
@@ -57,7 +61,7 @@
     &-right {
     }
     &-img {
-      height: 250px;
+      width: 100%;
     }
   }
   &__ul {
@@ -100,5 +104,57 @@
     }
   }
   &__top {
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .blockchain {
+    &__content {
+      flex-direction: column;
+    }
+    &__text {
+      width: 80vw;
+    }
+    &__img {
+      width: 20rem;
+    }
+  }
+
+  .business {
+    &__top {
+      flex-direction: column;
+    }
+    &__bottom {
+      flex-direction: column;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .jurisdiction {
+    align-items: center;
+    &__card {
+      width: 30vw;
+      & ul {
+        padding-left: 20px;
+      }
+      &-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .jurisdiction {
+    &__card {
+      width: 60vw;
+      &-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      }
+    }
   }
 }

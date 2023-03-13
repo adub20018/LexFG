@@ -263,9 +263,12 @@ li {
   display: flex;
   width: 80vw;
   align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
 }
 .blockchain__img {
-  height: 30rem;
+  width: 20vw;
+  max-width: 30rem;
   align-items: center;
 }
 .blockchain__text {
@@ -301,13 +304,16 @@ li {
   justify-content: space-between;
   margin-bottom: 5rem;
 }
+.business__top-img {
+  width: 100%;
+}
 .business__bottom {
   display: flex;
   width: 80vw;
   align-items: center;
 }
 .business__bottom-img {
-  height: 250px;
+  width: 100%;
 }
 .business__ul {
   padding-left: 20px;
@@ -347,6 +353,48 @@ li {
 .jurisdiction__card-title {
   font-family: "Dogica", sans-serif;
   font-size: 15px;
+}
+@media screen and (max-width: 900px) {
+  .blockchain__content {
+    flex-direction: column;
+  }
+  .blockchain__text {
+    width: 80vw;
+  }
+  .blockchain__img {
+    width: 20rem;
+  }
+  .business__top {
+    flex-direction: column;
+  }
+  .business__bottom {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 800px) {
+  .jurisdiction {
+    align-items: center;
+  }
+  .jurisdiction__card {
+    width: 30vw;
+  }
+  .jurisdiction__card ul {
+    padding-left: 20px;
+  }
+  .jurisdiction__card-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+}
+@media screen and (max-width: 515px) {
+  .jurisdiction__card {
+    width: 60vw;
+  }
+  .jurisdiction__card-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
 }
 .team {
   height: 100%;
