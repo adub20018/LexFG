@@ -121,10 +121,17 @@
 }
 
 // mobile views
+@media screen and (max-width: 860px) {
+  .hero-section {
+    &__img {
+      height: 70rem;
+    }
+  }
+}
 @media screen and (max-width: 725px) {
   .hero-section {
     &__img {
-      height: 100rem;
+      height: 80rem;
     }
     &__text {
       width: 80vw;
@@ -163,7 +170,12 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 460px) {
+  .hero-section {
+    &__img {
+      height: 95rem;
+    }
+  }
   .cards {
     flex-direction: column;
   }
