@@ -29,8 +29,8 @@
   align-items: center;
   gap: 2rem;
   padding: 0;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 5.5rem;
+  padding-right: 5.5rem;
   height: 6rem;
   margin: 0;
 }
@@ -51,10 +51,19 @@
   margin-right: auto;
 }
 
+@media screen and (max-width: 725px) {
+  .top-nav ul li {
+    display: none;
+  }
+  #logo {
+    display: flex;
+  }
+}
 html {
   font-family: "Dogica", sans-serif;
   font-size: 12px;
   line-height: 18px;
+  background-color: blue;
 }
 
 h1,
@@ -206,6 +215,15 @@ li {
   height: 100px;
 }
 
+@media screen and (max-width: 725px) {
+  .hero-section__img {
+    height: 100rem;
+  }
+  .service-card__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
 .blockchain {
   height: auto;
   background-color: #151d28;
