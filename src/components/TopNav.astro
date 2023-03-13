@@ -2,13 +2,17 @@
 ---
 
 <nav class="top-nav">
-  <ul>
-    <li id="logo">
-      <a href="/"
-        ><img class="top-nav__logo" src="/assets/images/LexFG_logo.png" /></a
-      >
-    </li>
-    <li><a href="/">OVERVIEW</a></li>
+  <input id="menu-toggle" type="checkbox" />
+  <label class="menu-button-container" for="menu-toggle">
+    <div class="menu-button"></div>
+  </label>
+  <li id="logo">
+    <a href="/"
+      ><img class="top-nav__logo" src="/assets/images/LexFG_logo.png" /></a
+    >
+  </li>
+  <ul class="menu">
+    <li id="top"><a href="/">OVERVIEW</a></li>
     <li><a href="/topics/">TOPICS</a></li>
     <li><a href="/team/">TEAM</a></li>
   </ul>
