@@ -25,7 +25,7 @@
   height: 6rem;
   margin-left: 2.5rem;
 }
-.top-nav ul {
+.top-nav .menu {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -35,21 +35,26 @@
   height: 6rem;
   margin: 0;
 }
-.top-nav ul li {
+.top-nav .menu li {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
 }
-.top-nav ul li a {
+.top-nav .menu li a {
   color: #fcfcfc;
   line-height: 6rem;
   text-decoration: none;
   font-family: "DogicaPixelBold", sans-serif;
   font-size: 15px;
 }
-.top-nav ul li a:hover {
+.top-nav .menu li a:hover {
   text-decoration: underline;
   color: #f9ad15;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
 
 .dash {
@@ -90,7 +95,8 @@ rect {
   z-index: 1;
 }
 .menu > li {
-  margin: 0 1rem;
+  margin: 0;
+  padding: 0;
 }
 .menu-button::before, .menu-button::after {
   position: absolute;
@@ -144,13 +150,13 @@ rect {
 }
 
 @media screen and (max-width: 725px) {
-  .top-nav ul li {
+  .top-nav .menu li {
     display: none;
   }
-  .top-nav ul li a {
+  .top-nav .menu li a {
     padding-right: 1.5rem;
   }
-  .top-nav ul {
+  .top-nav .menu {
     gap: 0;
     padding: 0;
     position: absolute;
@@ -159,7 +165,7 @@ rect {
     z-index: 2;
   }
   .top-nav__logo {
-    margin-left: 1.5rem;
+    margin-left: 0;
   }
   svg {
     display: none;
@@ -354,12 +360,12 @@ li {
 
 @media screen and (max-width: 860px) {
   .hero-section__img {
-    height: 70rem;
+    height: 80rem;
   }
 }
 @media screen and (max-width: 725px) {
   .hero-section__img {
-    height: 80rem;
+    height: 85rem;
   }
   .hero-section__text {
     width: 80vw;
@@ -388,7 +394,7 @@ li {
 }
 @media screen and (max-width: 460px) {
   .hero-section__img {
-    height: 95rem;
+    height: 105rem;
   }
   .cards {
     flex-direction: column;
@@ -396,7 +402,7 @@ li {
 }
 @media screen and (max-width: 375px) {
   .hero-section__img {
-    height: 112rem;
+    height: 120rem;
   }
   .social-icons__img {
     height: 60px;
