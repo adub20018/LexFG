@@ -189,7 +189,7 @@ rect {
 html {
   font-family: "Dogica", sans-serif;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 26px;
   background-color: #10141f;
 }
 
@@ -219,8 +219,8 @@ ul {
 }
 
 li {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .title {
@@ -511,6 +511,10 @@ li {
   font-family: "Dogica", sans-serif;
   font-size: 15px;
 }
+.jurisdiction ul li {
+  font-size: 10px;
+}
+
 @media screen and (max-width: 900px) {
   .blockchain__content {
     flex-direction: column;
