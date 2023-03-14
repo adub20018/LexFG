@@ -351,8 +351,10 @@ li {
   margin-top: 1rem;
 }
 
-.social-icons__img {
+.social-icons {
   margin-top: 2rem;
+}
+.social-icons__img {
   height: 100px;
 }
 
