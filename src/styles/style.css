@@ -323,6 +323,7 @@ li {
   color: #64a443;
   align-self: flex-start;
   margin: 0;
+  font-size: 35px;
 }
 .service-card__text {
   text-align: center;
