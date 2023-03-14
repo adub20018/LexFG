@@ -51,15 +51,14 @@
   color: #f9ad15;
 }
 
-.dash {
-  padding: 0;
-  margin: 0 !important;
-}
-
 rect {
   height: 2px;
   width: 8px;
   fill: #fcfcfc;
+}
+
+.svg-li {
+  padding-bottom: 15px;
 }
 
 .nav-link.active {
