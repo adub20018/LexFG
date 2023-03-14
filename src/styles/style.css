@@ -594,6 +594,9 @@ li {
   width: 20rem;
   font-size: 10px;
 }
+.profile__socials-img {
+  height: 65px;
+}
 
 @media screen and (max-width: 1050px) {
   .profile {

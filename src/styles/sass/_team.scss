@@ -37,6 +37,11 @@
     width: 20rem;
     font-size: 10px;
   }
+  &__socials {
+    &-img {
+      height: 65px;
+    }
+  }
 }
 
 @media screen and (max-width: 1050px) {
