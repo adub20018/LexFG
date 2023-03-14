@@ -524,6 +524,12 @@ li {
   .business__top {
     flex-direction: column;
   }
+  .business__top-img {
+    max-width: 40rem;
+    margin-left: 0;
+    margin-bottom: 2.5rem;
+    order: -1;
+  }
   .business__bottom {
     flex-direction: column;
   }
