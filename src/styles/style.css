@@ -160,7 +160,7 @@ rect {
     gap: 0;
     padding: 0;
     position: absolute;
-    top: 21rem;
+    top: 18.3rem;
     width: 100%;
     z-index: 2;
   }
@@ -392,9 +392,9 @@ li {
     font-size: 11px;
   }
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 475px) {
   .hero-section__img {
-    height: 105rem;
+    height: 110rem;
   }
   .cards {
     flex-direction: column;
