@@ -156,7 +156,7 @@ rect {
       gap: 0;
       padding: 0;
       position: absolute;
-      top: 21.3rem;
+      top: 21.6rem;
       width: 100%;
       z-index: 2;
     }
@@ -166,6 +166,10 @@ rect {
 
   svg {
     display: none;
+  }
+
+  .svg-li {
+    padding: 0;
   }
 
   // hamburger nav styles
