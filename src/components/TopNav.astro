@@ -18,19 +18,32 @@
 
   <ul class="menu">
     <li id="top">
-      <a href="/">OVERVIEW</a>
+      <a
+        class:list={["nav-link", { active: Astro.url.pathname === "/" }]}
+        href="/">OVERVIEW</a
+      >
     </li>
     <svg width="8" height="2">
       <rect></rect>
     </svg>
     <li>
-      <a href="/topics/">TOPICS</a>
+      <a
+        id="green"
+        class:list={[
+          "nav-link-green",
+          { active: Astro.url.pathname === "/topics/" },
+        ]}
+        href="/topics/">TOPICS</a
+      >
     </li>
     <svg width="8" height="2">
       <rect></rect>
     </svg>
     <li>
-      <a href="/team/">TEAM</a>
+      <a
+        class:list={["nav-link", { active: Astro.url.pathname === "/team/" }]}
+        href="/team/">TEAM</a
+      >
     </li>
   </ul>
 </nav>

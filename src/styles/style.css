@@ -49,6 +49,7 @@
 }
 .top-nav ul li a:hover {
   text-decoration: underline;
+  color: #f9ad15;
 }
 
 .dash {
@@ -62,8 +63,16 @@ rect {
   fill: #fcfcfc;
 }
 
-.active {
+.nav-link.active {
   color: #f9ad15;
+}
+
+.nav-link-green.active {
+  color: #64a443;
+}
+
+#green:hover {
+  color: #64a443;
 }
 
 #logo {

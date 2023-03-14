@@ -29,6 +29,7 @@
         font-size: 15px;
         &:hover {
           text-decoration: underline;
+          color: $color-orange;
         }
       }
     }
@@ -44,9 +45,23 @@ rect {
   fill: $color-white;
 }
 
-.active {
+// makes active nav link orange
+.nav-link.active {
   color: $color-orange;
 }
+
+// makes topic nav link green when active
+.nav-link-green.active {
+  color: $color-green;
+}
+
+// makes topic nav link appear green on hover
+#green {
+  &:hover {
+    color: $color-green;
+  }
+}
+
 #logo {
   padding: 0;
   list-style-type: none;
