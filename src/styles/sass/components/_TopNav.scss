@@ -6,9 +6,8 @@
     display: flex;
     align-items: center;
     height: 6rem;
-    margin-left: 2.5rem;
   }
-  & .menu {
+  & ul {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -35,10 +34,6 @@
     }
   }
 }
-ul {
-  padding: 0;
-  margin: 0;
-}
 .dash {
   padding: 0;
   margin: 0 !important;
@@ -59,7 +54,7 @@ rect {
   color: $color-green;
 }
 
-// makes topic nav link appear green on hover
+// makes topic nav appear green on hover
 #green {
   &:hover {
     color: $color-green;
@@ -68,8 +63,16 @@ rect {
 
 #logo {
   padding: 0;
+  margin: 0;
   list-style-type: none;
   position: absolute;
+  left: 0;
+  margin-left: 2.5rem;
+  &-ul {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+  }
 }
 
 // Hamburger Menu Styles
@@ -81,8 +84,7 @@ rect {
   padding: 0;
   z-index: 1;
   & > li {
-    margin: 0;
-    padding: 0;
+    margin: 0 1rem;
   }
 
   &-button::before,
@@ -101,6 +103,7 @@ rect {
     background-color: transparent;
     padding-top: 4px;
     padding-bottom: 6px;
+    z-index: 1;
     &-container {
       display: none;
       width: 30px;
@@ -142,22 +145,21 @@ rect {
 
 @media screen and (max-width: 725px) {
   .top-nav {
-    .menu li {
+    ul li {
       display: none;
       & a {
         padding-right: 1.5rem;
       }
     }
-    .menu {
+    ul {
       gap: 0;
       padding: 0;
       position: absolute;
-      top: 18.3rem;
+      top: 21.3rem;
       width: 100%;
       z-index: 2;
     }
     &__logo {
-      margin-left: 0;
     }
   }
 
@@ -183,9 +185,6 @@ rect {
   }
 
   #menu-toggle {
-    & ~ .menu li {
-      transition: all 0.2s cubic-bezier(0.1, 0.82, 0.76, 0.965);
-    }
     &:checked ~ .menu li {
       background-color: $color-dark-gray;
       display: flex;
@@ -196,6 +195,7 @@ rect {
 
   #logo {
     display: flex;
+    margin-left: 0;
   }
 
   #top {

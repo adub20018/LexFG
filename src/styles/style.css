@@ -23,9 +23,8 @@
   display: flex;
   align-items: center;
   height: 6rem;
-  margin-left: 2.5rem;
 }
-.top-nav .menu {
+.top-nav ul {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -35,26 +34,21 @@
   height: 6rem;
   margin: 0;
 }
-.top-nav .menu li {
+.top-nav ul li {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
 }
-.top-nav .menu li a {
+.top-nav ul li a {
   color: #fcfcfc;
   line-height: 6rem;
   text-decoration: none;
   font-family: "DogicaPixelBold", sans-serif;
   font-size: 15px;
 }
-.top-nav .menu li a:hover {
+.top-nav ul li a:hover {
   text-decoration: underline;
   color: #f9ad15;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
 }
 
 .dash {
@@ -82,8 +76,16 @@ rect {
 
 #logo {
   padding: 0;
+  margin: 0;
   list-style-type: none;
   position: absolute;
+  left: 0;
+  margin-left: 2.5rem;
+}
+#logo-ul {
+  position: absolute;
+  top: 0;
+  z-index: 0;
 }
 
 .menu {
@@ -95,8 +97,7 @@ rect {
   z-index: 1;
 }
 .menu > li {
-  margin: 0;
-  padding: 0;
+  margin: 0 1rem;
 }
 .menu-button::before, .menu-button::after {
   position: absolute;
@@ -113,6 +114,7 @@ rect {
   background-color: transparent;
   padding-top: 4px;
   padding-bottom: 6px;
+  z-index: 1;
 }
 .menu-button-container {
   display: none;
@@ -150,22 +152,19 @@ rect {
 }
 
 @media screen and (max-width: 725px) {
-  .top-nav .menu li {
+  .top-nav ul li {
     display: none;
   }
-  .top-nav .menu li a {
+  .top-nav ul li a {
     padding-right: 1.5rem;
   }
-  .top-nav .menu {
+  .top-nav ul {
     gap: 0;
     padding: 0;
     position: absolute;
-    top: 18.3rem;
+    top: 21.3rem;
     width: 100%;
     z-index: 2;
-  }
-  .top-nav__logo {
-    margin-left: 0;
   }
   svg {
     display: none;
@@ -185,9 +184,6 @@ rect {
     padding-right: 1.5rem;
     display: flex;
   }
-  #menu-toggle ~ .menu li {
-    transition: all 0.2s cubic-bezier(0.1, 0.82, 0.76, 0.965);
-  }
   #menu-toggle:checked ~ .menu li {
     background-color: #10141f;
     display: flex;
@@ -196,6 +192,7 @@ rect {
   }
   #logo {
     display: flex;
+    margin-left: 0;
   }
   #top {
     margin-top: 1px;
