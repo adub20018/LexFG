@@ -405,6 +405,7 @@ li {
 .blockchain__content {
   display: flex;
   width: 80vw;
+  max-width: 120rem;
   align-items: center;
   justify-content: space-between;
   gap: 5rem;
@@ -443,18 +444,25 @@ li {
 }
 .business__top {
   width: 80vw;
+  max-width: 120rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 5rem;
 }
 .business__top-img {
-  width: 100%;
-  max-width: 30rem;
+  width: 80%;
+  max-width: 50rem;
+  height: auto;
+  border: 1px solid #fcfcfc;
+  margin-left: 5rem;
 }
 .business__bottom {
   display: flex;
   width: 80vw;
+  max-width: 120rem;
   align-items: center;
+  justify-content: space-between;
 }
 .business__bottom-img {
   width: 100%;
@@ -475,6 +483,7 @@ li {
   flex-direction: column;
   align-items: center;
   padding-bottom: 5rem;
+  justify-content: center;
 }
 .jurisdiction-title {
   align-self: center;
@@ -482,15 +491,18 @@ li {
   font-size: 18px;
   width: 80vw;
   color: #64a443;
+  max-width: 120rem;
 }
 .jurisdiction__card {
   width: 25vw;
   text-align: left;
   border-bottom: 1px solid #fcfcfc;
+  max-width: 40rem;
 }
 .jurisdiction__card-container {
   display: grid;
-  width: 80vw;
+  width: 75vw;
+  max-width: 120rem;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   justify-items: center;

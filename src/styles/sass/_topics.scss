@@ -9,6 +9,7 @@
   &__content {
     display: flex;
     width: 80vw;
+    max-width: 120rem;
     align-items: center;
     justify-content: space-between;
     gap: 5rem;
@@ -47,18 +48,25 @@
   border-bottom: 1px solid $color-white;
   &__top {
     width: 80vw;
+    max-width: 120rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 5rem;
     &-img {
-      width: 100%;
-      max-width: 30rem;
+      width: 80%;
+      max-width: 50rem;
+      height: auto;
+      border: 1px solid $color-white;
+      margin-left: 5rem;
     }
   }
   &__bottom {
     display: flex;
     width: 80vw;
+    max-width: 120rem;
     align-items: center;
+    justify-content: space-between;
     &-right {
     }
     &-img {
@@ -82,20 +90,24 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 5rem;
+  justify-content: center;
   &-title {
     align-self: center;
     font-family: $font-body-bold;
     font-size: 18px;
     width: 80vw;
     color: $color-green;
+    max-width: 120rem;
   }
   &__card {
     width: 25vw;
     text-align: left;
     border-bottom: 1px solid $color-white;
+    max-width: 40rem;
     &-container {
       display: grid;
-      width: 80vw;
+      width: 75vw;
+      max-width: 120rem;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr;
       justify-items: center;
