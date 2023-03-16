@@ -204,6 +204,17 @@ rect {
     margin-top: 1px;
   }
 }
+footer {
+  border-top: 1px solid #fcfcfc;
+}
+footer .footer__content {
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
 html {
   font-family: "Dogica", sans-serif;
   font-size: 12px;
