@@ -124,18 +124,26 @@
   }
 }
 
-// mobile views
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 1100px) {
   .hero-section {
     &__img {
-      height: 80rem;
+      height: 110%;
     }
   }
 }
-@media screen and (max-width: 725px) {
+
+// mobile views
+@media screen and (max-width: 900px) {
   .hero-section {
     &__img {
-      height: 85rem;
+      height: 94rem;
+    }
+  }
+}
+@media screen and (max-width: 730px) {
+  .hero-section {
+    &__img {
+      height: 97rem;
     }
     &__text {
       width: 80vw;
@@ -174,10 +182,10 @@
   }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 480px) {
   .hero-section {
     &__img {
-      height: 110rem;
+      height: 120rem;
     }
   }
   .cards {
@@ -185,10 +193,10 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 385px) {
   .hero-section {
     &__img {
-      height: 120rem;
+      height: 130rem;
     }
   }
   .social-icons {
