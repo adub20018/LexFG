@@ -2,159 +2,157 @@
 import BaseHead from "../components/BaseHead.astro";
 import Layout from "../layouts/Layout.astro";
 import TopNav from "../components/TopNav.astro";
+import Footer from "../components/Footer.astro";
 import Card from "../components/Card.astro";
 ---
 
-<html lang="en">
-  <head>
-    <BaseHead />
-  </head>
+<head>
+  <BaseHead />
+</head>
 
-  <Layout title="Topics of LexFG">
-    <main>
-      <TopNav />
-      <div class="blockchain">
-        <div class="blockchain__content">
-          <div class="blockchain__content-left">
-            <h1 class="title-green">Blockchain & Crypto</h1>
-            <p class="blockchain__text">
-              LexFG members are entrenched in the space and include founding
-              members of LexDAO, BanklessDAO's legal guild, KaliDAO, CVRIA, and
-              have represented some of the most influential and recognized
-              communities in the space. We have a <span
-                class="feature-text-green"
-                >understanding of blockchain technology</span
-              > and its transformative impact on the global economy and society as
-              a whole. We can help developers, DAOs, and startups <span
-                class="feature-text-green"
-                >proactively plan and avoid issues</span
-              > that have arisen in the past. Our capabilities include advising on
-              topics such as:
-            </p>
-            <ul class="list">
-              <li>Decentralized Finance</li>
-              <li>Decentralized Autonomous Organizations</li>
-              <li>Non-Fungible Tokens</li>
-              <li>Token Funding, Issuance, and Sale</li>
-              <li>Smart Contract Oracles and Auditing</li>
-              <li>Crypto Payments</li>
-              <li>Data Security</li>
-              <li>User Privacy</li>
-              <li>Data Storage</li>
-              <li>
-                Intellectual Property, Copyrights, Licensing, and Trademarks
-              </li>
-            </ul>
-          </div>
-          <img
-            class="blockchain__img"
-            src="/assets/images/BlockchainGreen.gif"
-            alt="Pixel Blockchain Link Animation"
-          />
+<Layout title="Topics of LexFG">
+  <main>
+    <TopNav />
+    <div class="blockchain">
+      <div class="blockchain__content">
+        <div class="blockchain__content-left">
+          <h1 class="title-green">Blockchain & Crypto</h1>
+          <p class="blockchain__text">
+            LexFG members are entrenched in the space and include founding
+            members of LexDAO, BanklessDAO's legal guild, KaliDAO, CVRIA, and
+            have represented some of the most influential and recognized
+            communities in the space. We have a <span class="feature-text-green"
+              >understanding of blockchain technology</span
+            > and its transformative impact on the global economy and society as
+            a whole. We can help developers, DAOs, and startups <span
+              class="feature-text-green">proactively plan and avoid issues</span
+            > that have arisen in the past. Our capabilities include advising on
+            topics such as:
+          </p>
+          <ul class="list">
+            <li>Decentralized Finance</li>
+            <li>Decentralized Autonomous Organizations</li>
+            <li>Non-Fungible Tokens</li>
+            <li>Token Funding, Issuance, and Sale</li>
+            <li>Smart Contract Oracles and Auditing</li>
+            <li>Crypto Payments</li>
+            <li>Data Security</li>
+            <li>User Privacy</li>
+            <li>Data Storage</li>
+            <li>
+              Intellectual Property, Copyrights, Licensing, and Trademarks
+            </li>
+          </ul>
         </div>
+        <img
+          class="blockchain__img"
+          src="/assets/images/BlockchainGreen.gif"
+          alt="Pixel Blockchain Link Animation"
+        />
+      </div>
+    </div>
+
+    <div class="business">
+      <div class="business__top">
+        <div class="business__top-left">
+          <h1 class="title-green">Business Law & Litigation</h1>
+          <ul class="business__ul">
+            <li>B2B and B2C Offensive and Defensive Commercial Litigation</li>
+            <li>Partnership, Shareholder, and DAO Disputes</li>
+            <li>Insurance Coverage Disputes</li>
+            <li>Incorporation, Funding, Mergers, and Acquisitions</li>
+            <li>Entity Valuation</li>
+          </ul>
+        </div>
+        <img
+          class="business__top-img"
+          src="/assets/images/OfficeLaywer8_lit.png"
+          alt="Pixel Art Lawyer Office"
+        />
       </div>
 
-      <div class="business">
-        <div class="business__top">
-          <div class="business__top-left">
-            <h1 class="title-green">Business Law & Litigation</h1>
-            <ul class="business__ul">
-              <li>B2B and B2C Offensive and Defensive Commercial Litigation</li>
-              <li>Partnership, Shareholder, and DAO Disputes</li>
-              <li>Insurance Coverage Disputes</li>
-              <li>Incorporation, Funding, Mergers, and Acquisitions</li>
-              <li>Entity Valuation</li>
-            </ul>
-          </div>
-          <img
-            class="business__top-img"
-            src="/assets/images/OfficeLaywer8_lit.png"
-            alt="Pixel Art Lawyer Office"
-          />
-        </div>
-
-        <div class="business__bottom">
-          <img
-            class="business__bottom-img"
-            src="/assets/images/Formationupscaled.png"
-            alt="Pixel Art Lawyer Presentation"
-          />
-          <div class="business_bottom-right">
-            <h1 class="title-green">Formation & Governance</h1>
-            <ul class="business__ul">
-              <li>Legal Entity Choice and Formation</li>
-              <li>Governance and Internal Document Drafting</li>
-              <li>
-                SAFE, SAFT, Token Warrants and Side Letters, Convertible Notes
-              </li>
-              <li>B2B and B2C Contracting and Licensing</li>
-              <li>Mergers and Acquisitions and Investor Due Diligence</li>
-              <li>Contract and Transactional Due Diligence and Negotiation</li>
-              <li>
-                Employment and Contractor Agreements, Non-Competes,<br /> Non-Disclosure
-                Agreements, Etc.
-              </li>
-            </ul>
-          </div>
+      <div class="business__bottom">
+        <img
+          class="business__bottom-img"
+          src="/assets/images/Formationupscaled.png"
+          alt="Pixel Art Lawyer Presentation"
+        />
+        <div class="business_bottom-right">
+          <h1 class="title-green">Formation & Governance</h1>
+          <ul class="business__ul">
+            <li>Legal Entity Choice and Formation</li>
+            <li>Governance and Internal Document Drafting</li>
+            <li>
+              SAFE, SAFT, Token Warrants and Side Letters, Convertible Notes
+            </li>
+            <li>B2B and B2C Contracting and Licensing</li>
+            <li>Mergers and Acquisitions and Investor Due Diligence</li>
+            <li>Contract and Transactional Due Diligence and Negotiation</li>
+            <li>
+              Employment and Contractor Agreements, Non-Competes,<br /> Non-Disclosure
+              Agreements, Etc.
+            </li>
+          </ul>
         </div>
       </div>
+    </div>
 
-      <div class="jurisdiction">
-        <h2 class="jurisdiction-title">
-          LexFG includes practitioners admitted to practice in the following
-          jurisdictions
-        </h2>
-        <div class="jurisdiction__card-container">
-          <div class="jurisdiction__card">
-            <h3 class="jurisdiction__card-title">LawPanda:</h3>
-            <ul>
-              <li>Maryland</li>
-              <li>District of Columbia</li>
-              <li>Various Federal District Courts</li>
-            </ul>
-          </div>
-          <div class="jurisdiction__card">
-            <h3 class="jurisdiction__card-title">Omen:</h3>
-            <ul>
-              <li>Maryland</li>
-              <li>District of Columbia</li>
-              <li>Various Federal District Courts</li>
-            </ul>
-          </div>
-          <div class="jurisdiction__card">
-            <h3 class="jurisdiction__card-title">Tertius:</h3>
-            <ul>
-              <li>Maryland</li>
-              <li>District of Columbia</li>
-              <li>Various Federal District Courts</li>
-            </ul>
-          </div>
-          <div class="jurisdiction__card">
-            <h3 class="jurisdiction__card-title">Spanky:</h3>
-            <ul>
-              <li>Maryland</li>
-              <li>District of Columbia</li>
-              <li>Various Federal District Courts</li>
-            </ul>
-          </div>
-          <div class="jurisdiction__card">
-            <h3 class="jurisdiction__card-title">Moss:</h3>
-            <ul>
-              <li>Maryland</li>
-              <li>District of Columbia</li>
-              <li>Various Federal District Courts</li>
-            </ul>
-          </div>
-          <div class="jurisdiction__card">
-            <h3 class="jurisdiction__card-title">Narcoleptik Chicken:</h3>
-            <ul>
-              <li>Maryland</li>
-              <li>District of Columbia</li>
-              <li>Various Federal District Courts</li>
-            </ul>
-          </div>
+    <div class="jurisdiction">
+      <h2 class="jurisdiction-title">
+        LexFG includes practitioners admitted to practice in the following
+        jurisdictions
+      </h2>
+      <div class="jurisdiction__card-container">
+        <div class="jurisdiction__card">
+          <h3 class="jurisdiction__card-title">LawPanda:</h3>
+          <ul>
+            <li>Maryland</li>
+            <li>District of Columbia</li>
+            <li>Various Federal District Courts</li>
+          </ul>
+        </div>
+        <div class="jurisdiction__card">
+          <h3 class="jurisdiction__card-title">Omen:</h3>
+          <ul>
+            <li>Maryland</li>
+            <li>District of Columbia</li>
+            <li>Various Federal District Courts</li>
+          </ul>
+        </div>
+        <div class="jurisdiction__card">
+          <h3 class="jurisdiction__card-title">Tertius:</h3>
+          <ul>
+            <li>Maryland</li>
+            <li>District of Columbia</li>
+            <li>Various Federal District Courts</li>
+          </ul>
+        </div>
+        <div class="jurisdiction__card">
+          <h3 class="jurisdiction__card-title">Spanky:</h3>
+          <ul>
+            <li>Maryland</li>
+            <li>District of Columbia</li>
+            <li>Various Federal District Courts</li>
+          </ul>
+        </div>
+        <div class="jurisdiction__card">
+          <h3 class="jurisdiction__card-title">Moss:</h3>
+          <ul>
+            <li>Maryland</li>
+            <li>District of Columbia</li>
+            <li>Various Federal District Courts</li>
+          </ul>
+        </div>
+        <div class="jurisdiction__card">
+          <h3 class="jurisdiction__card-title">Narcoleptik Chicken:</h3>
+          <ul>
+            <li>Maryland</li>
+            <li>District of Columbia</li>
+            <li>Various Federal District Courts</li>
+          </ul>
         </div>
       </div>
-    </main>
-  </Layout>
-</html>
+    </div>
+    <Footer />
+  </main>
+</Layout>
