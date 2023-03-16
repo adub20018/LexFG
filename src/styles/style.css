@@ -364,6 +364,10 @@ li {
 .social-icons__img {
   height: 100px;
 }
+.social-icons__img:hover {
+  transform: translateY(-5px);
+  transition: 0.1s ease-in-out;
+}
 
 @media screen and (max-width: 860px) {
   .hero-section__img {
@@ -628,6 +632,10 @@ li {
 }
 .profile__socials-img {
   height: 65px;
+}
+.profile__socials-img:hover {
+  transform: translateY(-2.5px);
+  transition: 0.1s ease-in-out;
 }
 
 @media screen and (max-width: 1050px) {

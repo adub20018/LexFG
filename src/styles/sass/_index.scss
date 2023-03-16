@@ -117,6 +117,10 @@
   margin-top: 2rem;
   &__img {
     height: 100px;
+    &:hover {
+      transform: translateY(-5px);
+      transition: 0.1s ease-in-out;
+    }
   }
 }
 

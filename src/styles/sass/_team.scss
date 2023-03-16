@@ -40,6 +40,10 @@
   &__socials {
     &-img {
       height: 65px;
+      &:hover {
+        transform: translateY(-2.5px);
+        transition: 0.1s ease-in-out;
+      }
     }
   }
 }
