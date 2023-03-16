@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@400;600;700&display=swap");
 @font-face {
   font-family: "Dogica";
   src: url("/assets/fonts/DOGICA.woff2") format("woff2");
@@ -213,7 +214,7 @@ html {
 h1,
 h2,
 h3 {
-  font-family: "MotionControl", serif;
+  font-family: "Teko", sans-serif;
 }
 
 h1 {
