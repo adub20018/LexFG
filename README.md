@@ -1,38 +1,27 @@
-# Astro Starter Kit: Basics
+# LexFG site
 
-```
-npm create astro@latest -- --template basics
-```
+LexFG is a Fullstack, Web3 Law Firm for Blockchain Startups, NFT Investors & Crypto Issues
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+This site is hosted and managed on [Netlify](https://www.netlify.com/)
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+General overview of file structure:
 
 ```
 /
 ├── public/
-│   └── favicon.svg
+│   └── (where the assets (fonts, images) are located)
 ├── src/
 │   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
+│   ├── pages/
+│   |   └── (where the individual pages are located)
+│   └── styles/
+│       └── (where all of the styling files are located)
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Astro files are located in the `pages/` directory.
 
 Any static assets, like images, can be placed in the `public/` directory.
 
@@ -40,15 +29,16 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
+| Command                                                        | Action                                           |
+| :------------------------------------------------------------- | :----------------------------------------------- |
+| `npm install`                                                  | Installs dependencies                            |
+| `npm run dev`                                                  | Starts local dev server at `localhost:3000`      |
+| `npm run build`                                                | Build site to `./dist/`                          |
+| `npm run preview`                                              | Preview build locally, before deploying          |
+| `npm run astro ...`                                            | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro --help`                                         | Get help using the Astro CLI                     |
+| `sass --watch src/styles/sass/style.scss:src/styles/style.css` | Compile the Sass files to css                    |
 
-## 👀 Want to learn more?
+## For more information about Astro
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Check [the documentation here](https://docs.astro.build)
