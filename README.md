@@ -39,6 +39,4 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro --help`                                         | Get help using the Astro CLI                     |
 | `sass --watch src/styles/sass/style.scss:src/styles/style.css` | Compile the Sass files to css                    |
 
-## For more information about Astro
-
-Check [the documentation here](https://docs.astro.build)
+For more information on Astro, check [the documentation here](https://docs.astro.build)
