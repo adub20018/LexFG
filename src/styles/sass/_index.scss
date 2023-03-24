@@ -110,6 +110,7 @@
   &__text {
     width: 70vw;
     margin-top: 1rem;
+    font-size: 14px;
   }
 }
 
@@ -183,6 +184,13 @@
 }
 
 @media screen and (max-width: 480px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .card-title {
+    font-size: 30px;
+  }
   .hero-section {
     &__img {
       height: 120rem;
@@ -190,6 +198,10 @@
   }
   .cards {
     flex-direction: column;
+  }
+
+  .bottom__text {
+    font-size: 12px;
   }
 }
 

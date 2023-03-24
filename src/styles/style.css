@@ -370,6 +370,7 @@ li {
 .bottom__text {
   width: 70vw;
   margin-top: 1rem;
+  font-size: 14px;
 }
 
 .social-icons {
@@ -423,11 +424,20 @@ li {
   }
 }
 @media screen and (max-width: 480px) {
+  .title {
+    font-size: 35px;
+  }
+  .card-title {
+    font-size: 30px;
+  }
   .hero-section__img {
     height: 120rem;
   }
   .cards {
     flex-direction: column;
+  }
+  .bottom__text {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 385px) {
@@ -467,6 +477,7 @@ li {
 .title-green {
   margin: 0;
   color: #64a443;
+  margin-bottom: 2.5rem;
 }
 
 .feature-text-green {
@@ -672,7 +683,7 @@ li {
   .profile__container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0;
   }
 }
