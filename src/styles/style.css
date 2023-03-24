@@ -665,6 +665,7 @@ li {
 .profile__text {
   width: 20rem;
   font-size: 10px;
+  text-align: center;
 }
 .profile__socials-img {
   height: 65px;
