@@ -439,6 +439,12 @@ li {
   .bottom__text {
     font-size: 12px;
   }
+  .services__title {
+    font-size: 35px;
+  }
+  .service-card__title {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 385px) {
   .hero-section__img {
